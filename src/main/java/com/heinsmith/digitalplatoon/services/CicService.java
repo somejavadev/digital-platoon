@@ -5,5 +5,5 @@ import com.heinsmith.digitalplatoon.entities.Cic;
 public interface CicService {
 
     Cic getCicById(Long id);
-    Cic addCic(Cic cic);
+    Cic saveCic(Cic cic);
 }

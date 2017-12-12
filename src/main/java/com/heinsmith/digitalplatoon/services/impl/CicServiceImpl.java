@@ -18,7 +18,7 @@ public class CicServiceImpl implements CicService {
     }
 
     @Override
-    public Cic addCic(Cic cic) {
+    public Cic saveCic(Cic cic) {
         return cicRepository.save(cic);
     }
 }
