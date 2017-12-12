@@ -1,13 +1,15 @@
 package com.heinsmith.digitalplatoon.entities;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @javax.persistence.Entity
-public class Entity {
+@Table(name = "entity")
+@Inheritance(strategy = InheritanceType.JOINED)
+public abstract class Entity {
 
     @Id
     @Column(name = "entity_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long entityId;
 
     @Column(name = "entity_name")

@@ -1,9 +1,11 @@
 package com.heinsmith.digitalplatoon.entities;
 
 import javax.persistence.Column;
+import javax.persistence.Table;
 import java.sql.Date;
 
 @javax.persistence.Entity
+@Table(name = "cic")
 public class Cic extends Entity {
 
     @Column(name = "cic_id")
