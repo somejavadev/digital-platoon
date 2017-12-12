@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @ComponentScan("com.heinsmith.digitalplatoon")
-@EnableJpaRepositories(basePackages = "com.heinsmith.digitalplatoon.entities")
+@EnableJpaRepositories
 public class DigitalplatoonApplication {
 
     public static void main(String[] args) {
