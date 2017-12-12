@@ -8,6 +8,9 @@ import java.sql.Date;
 @Table(name = "cic")
 public class Cic extends Entity {
 
+    /**
+     * Should the cic_id be related to the entity_id? Or are these separate use cases/fields.
+     */
     @Column(name = "cic_id")
     private Long cicId;
 
@@ -70,4 +73,6 @@ public class Cic extends Entity {
     public void setCicTimeStamp(Date cicTimeStamp) {
         this.cicTimeStamp = cicTimeStamp;
     }
+
+
 }
