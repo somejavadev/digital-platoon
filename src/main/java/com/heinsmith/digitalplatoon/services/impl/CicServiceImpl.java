@@ -13,8 +13,13 @@ public class CicServiceImpl implements CicService {
     private CicRepository cicRepository;
 
     @Override
-    public Cic getCicById(Long id) {
-        return cicRepository.findOne(id);
+    public Cic getByEntityId(Long entityId) {
+        return cicRepository.findOne(entityId);
+    }
+
+    @Override
+    public Cic getByCicId(Long cicId) {
+        return cicRepository.findCicByCicId(cicId);
     }
 
     @Override
