@@ -19,6 +19,6 @@ public class CicResource {
 
     @GetMapping("/{cicId}")
     public Cic get(@PathVariable Long cicId) {
-        return cicService.getCicById(cicId);
+        return cicService.getByCicId(cicId);
     }
 }
