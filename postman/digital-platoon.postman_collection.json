@@ -1,0 +1,42 @@
+{
+	"variables": [],
+	"info": {
+		"name": "digital-platoon",
+		"_postman_id": "12557577-9c2b-a6e2-2d83-8e5c35e54040",
+		"description": "Rest calls for the digital platoon assignment.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Test CIc By ID",
+			"request": {
+				"url": "http://localhost:8080/cic/4455",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Get the test Cic by id."
+			},
+			"response": []
+		},
+		{
+			"name": "Create Cic From Rest",
+			"request": {
+				"url": "http://localhost:8080/cic/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"entityName\": \"cic\",\n    \"emailAddress\": \"testing@digitialplatoon.org\",\n    \"cicId\": 566,\n    \"cicType\": \"Urgent\",\n    \"subject\": \"Test Rest\",\n    \"body\": \"Test Cic Body Content from Rest\",\n    \"sourceSystem\": \"SMS\",\n    \"cicTimeStamp\": null\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
