@@ -6,4 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface CicRepository extends CrudRepository<Cic, Long> {
+
+    Cic findCicByCicId(Long cicId);
 }
