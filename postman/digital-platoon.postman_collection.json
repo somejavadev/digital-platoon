@@ -32,7 +32,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"entityName\": \"cic\",\n    \"emailAddress\": \"testing@digitialplatoon.org\",\n    \"cicId\": 566,\n    \"cicType\": \"Urgent\",\n    \"subject\": \"Test Rest\",\n    \"body\": \"Test Cic Body Content from Rest\",\n    \"sourceSystem\": \"SMS\",\n    \"cicTimeStamp\": null\n}"
+					"raw": "{\n    \"entityName\": \"cic\",\n    \"emailAddress\": \"testing@digitialplatoon.org\",\n    \"cicId\": 566,\n    \"cicType\": \"Urgent\",\n    \"subject\": \"Test Rest\",\n    \"body\": \"Test Cic Body Content from Rest\",\n    \"sourceSystem\": \"SMS\",\n    \"cicTimeStamp\": 1513170267345\n}"
 				},
 				"description": ""
 			},
