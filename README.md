@@ -12,7 +12,7 @@ You will need:
 
 ```
 Java JDK 8
-maven 3
+maven 3 (mvnw wrapper is also included)
 Git
 ```
 
