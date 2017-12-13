@@ -69,6 +69,8 @@ The project contains a [postman](https://www.getpostman.com/) collections json [
 Authentication was seen as out of scope for this assignment but adding token based authentication such as JWT would be used should it have been required.
 
 The in memory database H2 creates a digital-platoon-db.mv.db and digital-platoon-db.trace.db file under the Users home directory. They can simply be deleted to create a fresh start.
+
+Should you wish to inspect the in memory database you may access http://localhost:8080/h2/ when the application is running. Login details are stored the spring config file.
 ## Built With
 
 * [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
